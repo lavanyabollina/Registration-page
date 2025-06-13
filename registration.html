@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Registration </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>🎓 Student Registration Portal</h1>
+  </header>
+
+  <section class="form-section">
+    <div class="form-container">
+      <h2>Register Here</h2>
+      <form onsubmit="return validateForm()">
+        <input type="text" id="name" placeholder="Full Name" required>
+        <input type="email" id="email" placeholder="Email" required>
+        <input type="text" id="college" placeholder="College Name" required>
+        <input type="tel" id="phone" placeholder="Phone Number" required>
+        <input type="password" id="password" placeholder="Password" required>
+        <input type="password" id="confirm" placeholder="Confirm Password" required>
+        <button type="submit">Register</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Lavanya Bollina  | CSE Dept</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
